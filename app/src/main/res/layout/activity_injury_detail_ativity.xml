@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InjuryDetailAtivity">
+
+        <TextView
+            android:id="@+id/txtBodyPart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-7dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/corner"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/txtBodyPart"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/stp1" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/stp2"
+            android:layout_marginTop="500dp"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="1250dp"
+            android:layout_alignTop="@+id/gif2"
+            android:layout_marginTop="254dp"
+            android:src="@drawable/stp2" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="1250dp"
+            android:layout_alignTop="@+id/gif2"
+            android:layout_marginTop="254dp"
+            android:src="@drawable/stp3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="370dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="18dp"
+            android:text="Step 1) When you find a casualty, with heavy bleeding then before treating him/her make sure your hands are clean or wear gloves if possible." />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="370dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="425dp"
+            android:layout_marginEnd="8dp"
+            android:text="Step 2) Before applying pressure make sure there are no small objects inside the wounded area ." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="370dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="800dp"
+            android:layout_marginEnd="8dp"
+            android:text="Step 3) Now, secure the wounded area with Band-Aid if u have a Aid-kit. Make sure you have nicely tied the bandage so it doesn’t come off, make sure it is not too tight ." />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="370dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="1200dp"
+            android:layout_marginEnd="8dp"
+            android:text="Step 4) If the bleeding comes out of the bandage then again apply the pressure on the wound to slow down the bleeding and then Again tie another fresh piece of bandage.." />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
